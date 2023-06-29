@@ -312,15 +312,16 @@ header {
       font-weight: 400;
       letter-spacing: 5px;
       padding: 7px;
-      border: 1px solid #000;
+      border: 1px solid #CA82F8;
       display: block;
       text-align: center;
-      background: #000; }
+      background: #CA82F8; }
       header .colorlib-navbar-brand .colorlib-logo span {
         display: block;
         margin-bottom: 0;
         line-height: 1.2;
-        color: #fff; }
+        color: #fff;
+        font-weight: bold; }
       header .colorlib-navbar-brand .colorlib-logo:hover {
         text-decoration: none !important; }
       header .colorlib-navbar-brand .colorlib-logo:active, header .colorlib-navbar-brand .colorlib-logo:focus {
@@ -356,6 +357,7 @@ header {
   .rotate .heading {
     font-family: "Karla", Arial, sans-serif;
     font-size: 14px;
+    color: #CA82F8;
     text-transform: uppercase;
     letter-spacing: 1em;
     -webkit-transform: rotate(90deg);
@@ -374,7 +376,7 @@ header {
       top: 8px;
       right: -40px;
       content: '';
-      background: #000;
+      background: #CA82F8;
       width: 40px;
       height: 1px; }
 
@@ -414,7 +416,7 @@ header {
         top: 8px;
         right: -40px;
         content: '';
-        background: #000;
+        background: #CA82F8;
         width: 40px;
         height: 1px; }
 
@@ -766,7 +768,8 @@ header {
   .work-entry .desc .read {
     text-align: right; }
     .work-entry .desc .read a {
-      color: #000;
+      color: #CA82F8;
+      font-weight: 500;
       text-transform: uppercase;
       letter-spacing: 4px;
       font-size: 12px;
@@ -779,7 +782,7 @@ header {
         content: '';
         width: 40px;
         height: 1px;
-        background: #000; }
+        background: #CA82F8; }
 
 #colorlib-blog .owl-carousel {
   z-index: 0; }
@@ -996,8 +999,8 @@ header {
     border-color: #d49af9 !important; }
   .btn-primary.btn-outline {
     background: transparent;
-    color: #4d4d4d;
-    border: 1px solid #d9d9d9; }
+    color: #CA82F8;
+    border: 1px solid #CA82F8; }
     .btn-primary.btn-outline:hover, .btn-primary.btn-outline:focus, .btn-primary.btn-outline:active {
       background: #CA82F8;
       color: #fff; }
